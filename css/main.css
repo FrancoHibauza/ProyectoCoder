@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid: 0;
+    display: block;
+    flex-wrap: nowrap;
+
+}
+
+header h1{
+    color: turquoise;
+}
+
+.pages_enlaces{
+    font-style: none;
+    background-color: aquamarine;
+    color: black;
+    font-size: none;
+}
+
+.img_saint{
+    width: 600px;
+    height: 400px;
+}
+
+iframe{
+    margin: 100px;
+    padding: 100px;
+    
+}
