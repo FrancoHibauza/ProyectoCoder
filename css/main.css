@@ -1,32 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    grid: 0;
-    display: block;
-    flex-wrap: nowrap;
+}
+
+.section_container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+#carouselExampleCaptions>div.carousel-inner>div>img {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section_body_2 {
+    margin: 50px auto;
 
 }
 
-header h1{
-    color: turquoise;
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #080e12;
+    color: white;
+    height: 150px;
 }
 
-.pages_enlaces{
-    font-style: none;
-    background-color: aquamarine;
-    color: black;
-    font-size: none;
-}
 
-.img_saint{
-    width: 600px;
-    height: 400px;
-}
-
-iframe{
-    margin: 100px;
-    padding: 100px;
-    
+.footer_image>img {
+    object-fit: contain;
+    border-radius: 40px;
+    width: 120px;
+    height: 80px;
 }
