@@ -79,11 +79,12 @@ body > section > div.container > div > div.section_container_image > img {
   border-radius: 5px;
   color: antiquewhite;
 }
+
 body > section > div.card.text-bg-dark.card2 > img {
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px)
   .container {
     display: flex;
     gap: 10px;
@@ -114,5 +115,3 @@ body > section > div.card.text-bg-dark.card2 > img {
   #carouselExampleCaptions{
     height: 300px;
   }
-
-}
